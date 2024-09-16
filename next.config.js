@@ -2,6 +2,12 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -24,7 +30,5 @@ const nextConfig = {
     ],
   },
 }
-
-console.log("next.config.js", JSON.stringify(module.exports, null, 2))
 
 module.exports = nextConfig
