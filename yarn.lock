@@ -794,49 +794,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/icons@npm:1.2.2-preview-20240911090513":
-  version: 1.2.2-preview-20240911090513
-  resolution: "@medusajs/icons@npm:1.2.2-preview-20240911090513"
+"@medusajs/icons@npm:1.2.2-preview-20240917060327":
+  version: 1.2.2-preview-20240917060327
+  resolution: "@medusajs/icons@npm:1.2.2-preview-20240917060327"
   peerDependencies:
     react: ^16.x || ^17.x || ^18.x
-  checksum: 10c0/cfbbe834a661d8b31ae5e54b7a5ea6f79ed330b74bfedcf90d0656ce2edecd5c0bc37a622454c4b76b685f9e57a2c05276f73b47ff76256bc63e233cea925a04
+  checksum: 10c0/292f0cd1fa91dd054e6557f727a7dace94016e11792d1cf061b787f2b81270685e79085982ea9c021debc1a859222087a791506c4fdec866d6ff29c1ecc5acba
   languageName: node
   linkType: hard
 
 "@medusajs/js-sdk@npm:preview":
-  version: 0.0.2-preview-20240911090513
-  resolution: "@medusajs/js-sdk@npm:0.0.2-preview-20240911090513"
+  version: 0.0.2-preview-20240917060327
+  resolution: "@medusajs/js-sdk@npm:0.0.2-preview-20240917060327"
   dependencies:
     fetch-event-stream: "npm:^0.1.5"
     qs: "npm:^6.12.1"
-  checksum: 10c0/f08ed09d273a1cb9438f4a4f94c84144792c9dca650cdd1045d79644db1d3ec46ae6934802a2dbc2c2f9d4d996afe855fa28a8f3735dd0be78cf2039aa653395
+  checksum: 10c0/499dc1b90198fa8c1c31b3a734f4bf08bc2705178420f3c04f9d719b547492db1c7ffd2442a429bf7caae1da042addc3398561af9f4fefeab7dd341a6d46aaaf
   languageName: node
   linkType: hard
 
 "@medusajs/types@npm:preview":
-  version: 1.12.0-preview-20240911090513
-  resolution: "@medusajs/types@npm:1.12.0-preview-20240911090513"
-  checksum: 10c0/7085e4610e35a54c4eb8743621051a3138674ca9659ff948252af68e4e15a22ef6d30b4d77517d0e45b5d2a67c38c92c0edbaad91251305721fde1cf4c068784
+  version: 1.12.0-preview-20240917060327
+  resolution: "@medusajs/types@npm:1.12.0-preview-20240917060327"
+  checksum: 10c0/e97428d64cf42b3d15591c531a60437e4a1dc92be3e7daaf96c1f95d52a7b29f86901a3ce1bd6a29468280550b0982ef1c59f9e44e88ca1b38a15f3110f13cb1
   languageName: node
   linkType: hard
 
 "@medusajs/ui-preset@npm:preview":
-  version: 1.1.4-preview-20240911090513
-  resolution: "@medusajs/ui-preset@npm:1.1.4-preview-20240911090513"
+  version: 1.1.4-preview-20240917060327
+  resolution: "@medusajs/ui-preset@npm:1.1.4-preview-20240917060327"
   dependencies:
     "@tailwindcss/forms": "npm:^0.5.3"
     tailwindcss-animate: "npm:^1.0.6"
   peerDependencies:
     tailwindcss: ">=3.0.0"
-  checksum: 10c0/084dc7f7f282e0912e1baf551172af4aa7512b723847cdc6285ad4522d5df46de5cbe8aa929b89026e4799c239a27405aff92315aeb1c0234daa0150126dc435
+  checksum: 10c0/5775f83e108c83ad9aa075e7e0ebf608eca22dd1e59b2410c6b796931c8d773632fe02f97c1037710b755d3f51cefc0a12ca4c87f12e39fbc34137544cebc9c9
   languageName: node
   linkType: hard
 
 "@medusajs/ui@npm:preview":
-  version: 3.0.1-preview-20240911090513
-  resolution: "@medusajs/ui@npm:3.0.1-preview-20240911090513"
+  version: 3.0.1-preview-20240917060327
+  resolution: "@medusajs/ui@npm:3.0.1-preview-20240917060327"
   dependencies:
-    "@medusajs/icons": "npm:1.2.2-preview-20240911090513"
+    "@medusajs/icons": "npm:1.2.2-preview-20240917060327"
     "@radix-ui/react-accordion": "npm:1.2.0"
     "@radix-ui/react-alert-dialog": "npm:1.1.1"
     "@radix-ui/react-avatar": "npm:1.1.0"
@@ -866,7 +866,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/9dbf0f30b0fab473290588713e9597358621dc5963e063897b11641805ae732c5fd40f5109890506c5144f25d7e157b2d09c30ed5617cc03f4b69c8baaa92e72
+  checksum: 10c0/62b145dc7d49d7d17b69d92ddf2da101a4d13827f9c2d40ae970f5d57cc6ebb05b4fec119bb769c5177158e2a32e4fc8b551749adf9350590aff43724baf6a1e
   languageName: node
   linkType: hard
 
@@ -3346,21 +3346,21 @@ __metadata:
   linkType: hard
 
 "@tanstack/react-virtual@npm:^3.0.0-beta.60":
-  version: 3.10.7
-  resolution: "@tanstack/react-virtual@npm:3.10.7"
+  version: 3.10.8
+  resolution: "@tanstack/react-virtual@npm:3.10.8"
   dependencies:
-    "@tanstack/virtual-core": "npm:3.10.7"
+    "@tanstack/virtual-core": "npm:3.10.8"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/620a4a4aa779468652858b22af38f862771e582ad2f7426d0ecf2f81c2ff4da8243f819a6ad7f80f964697df7bcddf577013da6232b756181426903252daeec4
+  checksum: 10c0/b7aec88ef48f604d3e7245b9996ba42f06e6ee2c1a45146cb96814cb3873a4c888bf86d26d10284c847a5ed97e16dc9430c380387abc1231c2e43c00f6ebadff
   languageName: node
   linkType: hard
 
-"@tanstack/virtual-core@npm:3.10.7":
-  version: 3.10.7
-  resolution: "@tanstack/virtual-core@npm:3.10.7"
-  checksum: 10c0/dd00c8444b53963c4f9962024a08256867b0b03f1e2fc1b2318ca514dd7c2eb70469992f8f0f49ed260f2284fac8f7b320dcbccf32dc1cf92d67fc072c072653
+"@tanstack/virtual-core@npm:3.10.8":
+  version: 3.10.8
+  resolution: "@tanstack/virtual-core@npm:3.10.8"
+  checksum: 10c0/ddb97cd03d84b343b38a2c14d85e33c788f4af622fccc0fdf997caf4e83e47e8f67b099b854c7dc4337d7662f647625ab3247cd8aa1bc9d4dda701bda83245f6
   languageName: node
   linkType: hard
 
@@ -3448,9 +3448,9 @@ __metadata:
   linkType: hard
 
 "@types/prop-types@npm:*":
-  version: 15.7.12
-  resolution: "@types/prop-types@npm:15.7.12"
-  checksum: 10c0/1babcc7db6a1177779f8fde0ccc78d64d459906e6ef69a4ed4dd6339c920c2e05b074ee5a92120fe4e9d9f1a01c952f843ebd550bee2332fc2ef81d1706878f8
+  version: 15.7.13
+  resolution: "@types/prop-types@npm:15.7.13"
+  checksum: 10c0/1b20fc67281902c6743379960247bc161f3f0406ffc0df8e7058745a85ea1538612109db0406290512947f9632fe9e10e7337bf0ce6338a91d6c948df16a7c61
   languageName: node
   linkType: hard
 
@@ -4214,17 +4214,17 @@ __metadata:
   linkType: hard
 
 "babel-loader@npm:^8.2.3":
-  version: 8.3.0
-  resolution: "babel-loader@npm:8.3.0"
+  version: 8.4.1
+  resolution: "babel-loader@npm:8.4.1"
   dependencies:
     find-cache-dir: "npm:^3.3.1"
-    loader-utils: "npm:^2.0.0"
+    loader-utils: "npm:^2.0.4"
     make-dir: "npm:^3.1.0"
     schema-utils: "npm:^2.6.5"
   peerDependencies:
     "@babel/core": ^7.0.0
     webpack: ">=2"
-  checksum: 10c0/7b83bae35a12fbc5cdf250e2d36a288305fe5b6d20ab044ab7c09bbf456c8895b80af7a4f1e8b64b5c07a4fd48d4b5144dab40b4bc72a4fed532dc000362f38f
+  checksum: 10c0/efdca9c3ef502af58b923a32123d660c54fd0be125b7b64562c8a43bda0a3a55dac0db32331674104e7e5184061b75c3a0e395b2c5ccdc7cb2125dd9ec7108d2
   languageName: node
   linkType: hard
 
@@ -4755,9 +4755,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.4":
-  version: 1.5.23
-  resolution: "electron-to-chromium@npm:1.5.23"
-  checksum: 10c0/a2f76d3ffae24635ff13597a7e4ddd73bd7ee2124e021d34a60faafc5a1afda567e6d26c0c84abc5c2d7622d9daf9bb25ed7dd2970019dcf4b9a28c02c13cab4
+  version: 1.5.24
+  resolution: "electron-to-chromium@npm:1.5.24"
+  checksum: 10c0/c20a6fc69145c0b470778ee0a952226d3480d611949bea00c9f8ed3bac0a205e5cd8ba76cfa99034d9ee717482741cf1c7e41eb151ccffc933e1eefe501d3bc7
   languageName: node
   linkType: hard
 
@@ -6432,7 +6432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^2.0.0":
+"loader-utils@npm:^2.0.4":
   version: 2.0.4
   resolution: "loader-utils@npm:2.0.4"
   dependencies:
